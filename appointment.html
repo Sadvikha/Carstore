@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+<title>appointment Page</title>
+<link rel="stylesheet" type="text/css" href="homepage.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+ <link rel="stylesheet" type="text/css" href="appointment.css">
+</head>
+<body>
+<div class="bg-img">    
+
+<ul>
+  <li><img src="data:image/jpeg;base64,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" width=80 height=60></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="about.html">Feedback</a></li>
+ </ul>
+
+  <class="container">
+  <form action="appointment" method="post">
+      <h1><div style="text-align:center"><div style="font-family: Georgia, 'Times New Roman', Times, serif;">APPOINTMENT</div></div></h1>
+      <body style="background-color:black;">
+      <input type="text" placeholder="Enter Name" name="name" required>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <input type="number" placeholder="Enter Phone Number" name="phone" required>
+      <h4>What is the best way to reach you?</h4>
+      <input type="number" name="radio-98" value="Phone">
+      <input type="text" name="radio-98" value="email">
+      <h4>Days of the week you are available for appointment:</h4>
+      <label><input type="checkbox" name="checkbox-465[]" value="Monday">&nbsp;<span class="wpcf7-list-item-label">Monday</span></label></span><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-465[]" value="Tuesday">&nbsp;<span class="wpcf7-list-item-label">Tuesday</span></label></span><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-465[]" value="Wednesday">&nbsp;<span class="wpcf7-list-item-label">Wednesday</span></label></span><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-465[]" value="Thursday">&nbsp;<span class="wpcf7-list-item-label">Thursday</span></label></span><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-465[]" value="Friday">&nbsp;<span class="wpcf7-list-item-label">Friday</span></label></span></span></span></p>
+      <h4>Best time of day for your appointment:</h4>
+      <p><span class="wpcf7-form-control-wrap checkbox-246">
+      <span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-246[]" value="Morning">&nbsp;
+      <span class="wpcf7-list-item-label">Morning</span></label></span><span class="wpcf7-list-item">
+      <label><input type="checkbox" name="checkbox-246[]" value="Afternoon">&nbsp;
+      <span class="wpcf7-list-item-label">Afternoon</span></label></span></span></span></p>
+      <a href="thankyou.html">
+       <button type="button" class="btn btn-outline-danger">SUBMIT</button>
+      </form>
+  </div>
+</body>
+</html>

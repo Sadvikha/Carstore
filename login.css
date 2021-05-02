@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+body, html {
+    height: 100%;
+  }
+  
+ * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("https://www.bugatti.com/fileadmin/_processed_/sei/p1/se-image-c4a9cdcf0a58353aa5323d397bde7f34.jpg");
+  
+    /* Control the height of the image */
+    min-height: 610px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    left: 470px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgba(165, 153, 153, 0.664);
+    top: 150px;
+    border-radius: 30px;
+    
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #c0c0c0;
+    outline: none;
+    border-radius: 50px;
+    
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: rgb(7, 90, 20);
+    color: #fdfdfd;
+    padding: 10px 30px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    left: 15%;
+    width: 70%;
+    height: 50px;
+    opacity: 0.9;
+    font-size: 110%;
+  }
+  
+  .btn:hover {
+    opacity: 1.0;
+  }
+  
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  height: 65px;
+  width:1280px;
+
+}
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #808080;
+}
